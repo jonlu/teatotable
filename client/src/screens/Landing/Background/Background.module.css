@@ -1,0 +1,46 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.container div {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.stove {
+  background-image: url('./assets/stove.png');
+  height: 128px;
+  width: 256px;
+  top: 256px !important;
+  left: 22px !important;
+}
+
+.panWithVeggies {
+  background-image: url('./assets/pan_with_veggies.png');
+  height: 300px;
+  width: 300px;
+  bottom: 100px;
+}
+
+.smallSplatters {
+  background-image: url('./assets/small_splatters.png');
+  height: 256px;
+  width: 200px;
+  top: 77px !important;
+  left: 26px !important;
+}
+
+.largeSplatters {
+  background-image: url('./assets/large_splatters.png');
+  height: 300px;
+  width: 200px;
+  left: 55px !important;
+  top: -22px !important;
+}
