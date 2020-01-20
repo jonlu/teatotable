@@ -1,6 +1,4 @@
 import React, { useRef, useCallback } from 'react';
-import { motion } from 'framer-motion';
-import useMousePosition from 'utils/hooks/useMousePosition';
 import Parallax from 'parallax-js';
 
 import styles from './Background.module.css';
@@ -36,7 +34,7 @@ const Background = props => {
         frictionY: 0.03,
       });
     }
-  });
+  }, []);
 
   return (
     <div ref={parallaxContainerRef} className={styles.container}>
